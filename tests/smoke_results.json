@@ -1,0 +1,116 @@
+{
+  "base_url": "http://127.0.0.1:8080",
+  "selected_cases": 12,
+  "passed_transport": 12,
+  "failed_transport": 0,
+  "results": [
+    {
+      "scenario_id": "SCN-000001",
+      "endpoint": "/health",
+      "method": "GET",
+      "family": "health",
+      "status_code": 200,
+      "ok_transport": true,
+      "note": "ok"
+    },
+    {
+      "scenario_id": "SCN-000017",
+      "endpoint": "/auth-status",
+      "method": "GET",
+      "family": "auth",
+      "status_code": 200,
+      "ok_transport": true,
+      "note": "ok"
+    },
+    {
+      "scenario_id": "SCN-000033",
+      "endpoint": "/login",
+      "method": "POST",
+      "family": "auth",
+      "status_code": 200,
+      "ok_transport": true,
+      "note": "ok"
+    },
+    {
+      "scenario_id": "SCN-000193",
+      "endpoint": "/graphs",
+      "method": "GET",
+      "family": "graph",
+      "status_code": 422,
+      "ok_transport": true,
+      "note": "ok"
+    },
+    {
+      "scenario_id": "SCN-000273",
+      "endpoint": "/graph/entity/edit",
+      "method": "POST",
+      "family": "graph_mutation",
+      "status_code": 400,
+      "ok_transport": true,
+      "note": "ok"
+    },
+    {
+      "scenario_id": "SCN-000593",
+      "endpoint": "/documents",
+      "method": "GET",
+      "family": "documents",
+      "status_code": 200,
+      "ok_transport": true,
+      "note": "ok"
+    },
+    {
+      "scenario_id": "SCN-000625",
+      "endpoint": "/documents/scan",
+      "method": "POST",
+      "family": "documents_mutation",
+      "status_code": 200,
+      "ok_transport": true,
+      "note": "ok"
+    },
+    {
+      "scenario_id": "SCN-000945",
+      "endpoint": "/documents/paginated",
+      "method": "POST",
+      "family": "documents",
+      "status_code": 422,
+      "ok_transport": true,
+      "note": "ok"
+    },
+    {
+      "scenario_id": "SCN-001617",
+      "endpoint": "/documents/upload",
+      "method": "POST",
+      "family": "documents_upload",
+      "status_code": 200,
+      "ok_transport": true,
+      "note": "ok"
+    },
+    {
+      "scenario_id": "SCN-001697",
+      "endpoint": "/documents",
+      "method": "DELETE",
+      "family": "documents_mutation",
+      "status_code": 200,
+      "ok_transport": true,
+      "note": "ok"
+    },
+    {
+      "scenario_id": "SCN-002193",
+      "endpoint": "/query",
+      "method": "POST",
+      "family": "query",
+      "status_code": 200,
+      "ok_transport": true,
+      "note": "ok"
+    },
+    {
+      "scenario_id": "SCN-003159",
+      "endpoint": "/query/stream",
+      "method": "POST",
+      "family": "query_stream",
+      "status_code": 200,
+      "ok_transport": true,
+      "note": "ok"
+    }
+  ]
+}
