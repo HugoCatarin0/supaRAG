@@ -2,3 +2,6 @@
 **/*.rs.bk
 .env
 
+
+# smoke test temp artifacts
+tests/_sample_upload.txt
